@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>String Manipulation</title>
+</head>
+
+<body>
+    <script>
+        // Function to check if a string is a palindrome 
+        function isPalindrome(str) {
+            let cleanedStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
+            return cleanedStr === cleanedStr.split('').reverse().join('');
+        }
+
+        // Read string from user and perform operations 
+        let userInput = prompt("Enter a string:");
+        let lengthOfString = userInput.length;
+
+        // Extract 'JavaScript' and replace if present 
+        let extractedWord = userInput.includes("JavaScript") ?
+            userInput.substring(userInput.indexOf("JavaScript"),
+                userInput.indexOf("JavaScript") + "JavaScript".length) : "JavaScript not found";
+        let newString = userInput.replace("JavaScript", "TypeScript");
+        let palindromeCheck = isPalindrome(userInput);
+
+        console.log(`New String after Replacement: ${newString}`);
+        // Display alerts
+        alert(`Length: ${lengthOfString}\nExtracted Word: ${extractedWord}\nNew String: ${newString}\nPalindrome: ${palindromeCheck}`);
+    </script>
+</body>
+
+</html>
