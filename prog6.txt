@@ -1,0 +1,27 @@
+npm create vite@latest counter-app 
+cd counter-app 
+npm install 
+npm run dev
+1. mkdir exp6 
+2. cd exp6 
+3. npm create vite@latest 5 
+4. cd 5 
+5. npm install 
+6. modify App.jsx In src folder 
+7. create src/Counter.jsx in src folder
+8. npx create-next-app@latest counter-app 
+   TypeScript? No 
+   ESLint? Yes 
+   Tailwind CSS? No 
+   Code inside `src/`? Yes 
+   App Router?  Yes 
+   Turbopack for `next dev`? Yes 
+   Import alias customization? No
+9. 1. put Counter.jsx code In the folder like by creating Counter.js in src/app/Counter.js. and also 
+add 'use client'; as first line in this file. 
+2. Modify the page.js content with src/App.Jsx by removing importing of App.jsx 
+3. create a folder like mkdir 6 
+4. cd 6 
+5. npm create vite@latest count 
+6. npm install 
+7. under src folder

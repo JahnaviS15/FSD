@@ -1,0 +1,12 @@
+npm create vite@latest issue-tracker --template react 
+cd issue-tracker 
+npm install 
+npm run dev
+1. mkdir exp6 
+2. cd exp6 
+3. npm create vite@latest 5 
+4. cd 5 
+5. npm install 
+6. under src folder create Issuelist.jsx file 
+7. under src folder modify App.jsx file
+
